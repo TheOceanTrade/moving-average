@@ -102,4 +102,4 @@ const update = async () => {
     position = 'out'
   }
 }
-setInterval(update, 3600)
+setInterval(update, 3600 * 1000)
